@@ -8,6 +8,6 @@
 
 ###𝙹𝙾𝙸𝙽 𝙵𝙾𝚁 𝙰𝙽𝚈 𝙸𝚂𝚂𝚄𝙴
 
-- [Channel](https://t.me/SNEHABHI_UPDATES)
+- [Kanal](https://t.me/https://t.me/guvencekanalimiz)
 
-- [Group](https://t.me/SNEHABHI_SERVER)
+- [Grup](https://t.me/guvenilirsistemler)
