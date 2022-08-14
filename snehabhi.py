@@ -1,5 +1,5 @@
 #SNEHABHI USERTAGGER BOT
-#I LOVE YOU SNEHU😘
+#Seni Seviyorum İstanbul Yakışıklısı😘
 
 import os, logging, asyncio
 from telethon import Button
@@ -27,7 +27,7 @@ async def cancel(event):
   
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("𝙷𝙴𝙻𝙻𝙾 𝙸'𝙼 𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝚄𝚂𝙴𝚁𝚃𝙰𝙶𝙶𝙴𝚁 𝙱𝙾𝚃.𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙻𝙾𝙱 𝙱𝚈 [ABHI & SNEHU](HTTP://T.ME/SNEHABHI_UPDATES). 𝙽𝙴𝙴𝙳 𝙷𝙴𝙻𝙿 /help . 𝙵𝙾𝚁 𝚁𝙴𝙿𝙾 /repository ",
+  await event.reply("Merhaba Ben İstanbul Yakışıklsı Tarafından Yaratıldım @istanbulyakisiklisii ",
                     buttons=(
                       [Button.url('🙃 𝙶𝚁𝙾𝚄𝙿 𝙼𝙴 𝙳𝙰𝙻 𝙳𝙴 𝙳𝙴𝙺𝙷 𝙼𝚃 🥺✨', 'https://t.me/SNEHABHI_TAGGERBOT?startgroup=true')],
                       [Button.url('𝙵𝙾𝚁 𝙰𝙽𝚈 𝙸𝚂𝚂𝚄𝙴 𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿', 'https://t.me/SNEHABHI_SERVER')],
@@ -50,13 +50,11 @@ async def help(event):
                     link_preview=False
                     )
   
-@client.on(events.NewMessage(pattern="^/repository$"))
+@client.on(events.NewMessage(pattern="^/Reklam$"))
 async def repository(event):
-  snehabhitext = "**𝙳𝙴𝙿𝙻𝙾𝚈 𝙾𝚄𝚁 𝙾𝚆𝙽 𝙱𝙾𝚃**"
+  snehabhitext = "**Kendi Reklamını Ver @istanbulyakisiklisii**"
   await event.reply(snehabhitext,
-                    buttons=(
-                      [Button.url('𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈', 'http://t.me/SNEHABHI_UPDATES')],
-                      [Button.url('𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿', 'http://t.me/LIVE_LIFE_LIKE')]
+                    buttons= [Button.url('Para Kazanma Grubu', 'http://t.me/guvenilirsistemler')]
                       ),
                     link_preview=False
                     )
@@ -69,13 +67,13 @@ async def repository(event):
 async def mentionall(event):
   global moment_worker
   if event.is_private:
-    return await event.reply("𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙾𝚁 𝙶𝚁𝙾𝚄𝙿𝚂!")
+    return await event.reply("Grup veya Kanallarda kullan!")
   
   admins = []
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
     admins.append(admin.id)
   if not event.sender_id in admins:
-    return await event.reply("𝙾𝙽𝙻𝚈 𝙰𝙳𝙼𝙸𝙽 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙸𝚃.")
+    return await event.reply("Bunu Sadece Yöneticiler Kullanabilir.")
     
   if event.pattern_match.group(1):
     mode = "text_on_cmd"
@@ -84,7 +82,7 @@ async def mentionall(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.reply("𝙸 𝙲𝙰𝙽'𝚃 𝙼𝙴𝙽𝚃𝙸𝙾𝙽 𝙼𝙴𝙼𝙱𝙴𝚁𝚂 𝙵𝙾𝚁 𝙾𝙻𝙳 𝙿𝙾𝚂𝚃")
+        return await event.reply("Üyeleri Etiketleyemem")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
     return await event.reply("𝙶𝙸𝚅𝙴 𝙼𝙴 𝙲𝙰𝙽 𝙰𝙽 𝙰𝚁𝙶𝚄𝙼𝙴𝙽𝚃. 𝙴𝚇𝙰𝙼𝙿𝙻𝙴: `/tag 𝙺𝙰𝙷𝙰 𝙼𝙰𝚁 𝚁𝙰𝙷𝙴 𝙷𝙾 𝚂𝙰𝙱`")
   else:
@@ -97,7 +95,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in moment_worker:
-        await event.respond("𝚂𝚃𝙾𝙿𝙿𝙴𝙳! 𝙹𝙾𝙸𝙽 @SNEHABHI_UPDATES.. & @LIVE_LIFE_LIKE..")
+        await event.respond("Durduruldu Grubumuza Katılın @GuvenilirSistemler")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, f"{usrtxt}\n\n{msg}")
@@ -115,7 +113,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in moment_worker:
-        await event.reply("𝚂𝚃𝙾𝙿𝙿𝙴𝙳! 𝙹𝙾𝙸𝙽 @SNEHABHI_UPDATES")
+        await event.reply("Durduruldu @guvenilirsistemler")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -124,6 +122,6 @@ async def mentionall(event):
         usrtxt = ""
         
         
-print("𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝚄𝚂𝙴𝚁𝚃𝙰𝙶𝙶𝙴𝚁 𝙱𝙾𝚃 𝙸𝚂 𝚂𝚃𝙰𝚁𝚃𝙴𝙳")
-print("¯\_(ツ)_/¯ 𝙽𝙴𝙴𝙳 𝙷𝙴𝙻𝙿 𝙹𝙾𝙸𝙽 @SNEHABHI_SERVER")
+print("USERTAGGER BOT BAŞLATILDI")
+print("¯\_(ツ)_/¯ YARDIM İÇİN @istanbulyakisiklisii")
 client.run_until_disconnected()
