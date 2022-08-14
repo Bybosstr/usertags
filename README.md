@@ -1,6 +1,6 @@
 # USERTAGGER-BOT
 
-<img src="https://telegra.ph/file/571f7d4c22a126cfe99c3.jpg">
+
 
 ### 🚀 Deploy
 
