@@ -1,0 +1,22 @@
+{
+  "name": "𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝚄𝚂𝙴𝚁𝚃𝙰𝙶𝙶𝙴𝚁 𝙱𝙾𝚃",
+  "logo":"https://telegra.ph/file/571f7d4c22a126cfe99c3.png",
+  "description": "𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝚄𝚂𝙴𝚁𝚃𝙰𝙶𝙶𝙴𝚁 𝙱𝙾𝚃 𝙼𝙰𝙳𝙴 𝙱𝚈 @SNEHU_IS_MINE",
+  "repository": "HTTP://GITHUB.COM/SNEHABHIxd/USERTAGGER-BOT",
+  "env": {
+    "TOKEN": {
+      "description": "𝙱𝙾𝚃 𝚃𝙾𝙺𝙴𝙽 𝙵𝚁𝙾𝙼 𝙵𝙾𝚁 @BOTFATHER 𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝚄𝚂𝙴𝚁𝚃𝙰𝙶𝙶𝙴𝚁 𝙱𝙾𝚃."
+      },
+    "API_ID": {
+      "description": "𝙰𝙿𝙸 𝙸𝙳 𝙵𝚁𝙾𝙼 WWW.TELEGRAM.ORG 𝙵𝙾𝚁 𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝚄𝚂𝙴𝚁𝚃𝙰𝙶𝙶𝙴𝚁 𝙱𝙾𝚃."
+      },
+    "API_HASH": {
+      "description": "𝙰𝙿𝙸 𝙷𝙰𝚂𝙷 𝙵𝚁𝙾𝙼 WWW.TELEGRAM.ORG 𝙵𝙾𝚁 𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝚄𝚂𝙴𝚁𝚃𝙰𝙶𝙶𝙴𝚁 𝙱𝙾𝚃."
+      }
+    },
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    }
+  ]
+ }     
+    
