@@ -29,9 +29,9 @@ async def cancel(event):
 async def start(event):
   await event.reply("Merhaba Ben İstanbul Yakışıklsı Tarafından Yaratıldım @istanbulyakisiklisii ",
                     buttons=(
-                      [Button.url('🙃 𝙶𝚁𝙾𝚄𝙿 𝙼𝙴 𝙳𝙰𝙻 𝙳𝙴 𝙳𝙴𝙺𝙷 𝙼𝚃 🥺✨', 'https://t.me/SNEHABHI_TAGGERBOT?startgroup=true')],
-                      [Button.url('𝙵𝙾𝚁 𝙰𝙽𝚈 𝙸𝚂𝚂𝚄𝙴 𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿', 'https://t.me/SNEHABHI_SERVER')],
-                      [Button.url('𝙵𝙾𝚁 𝙻𝙰𝚃𝙴𝚂𝚃 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', 'https://t.me/SNEHABHI_UPDATES')]
+                      [Button.url('🙃 Grubunuza Almak için Basın bana  🥺✨', 'https://t.me/UserTags_Bot?startgroup=true')],
+                      [Button.url('Destek için', 'https://t.me/istanbulyakisiklisii')],
+                      [Button.url('Kanalımıza Katılın', 'https://t.me/GuvenceKanalimiz')]
                       ),
                     link_preview=False
                     )
@@ -43,9 +43,9 @@ async def help(event):
   helptext = "***𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝚄𝚂𝙴𝚁𝚃𝙰𝙶𝙶𝙴𝚁 𝙱𝙾𝚃'𝚂 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄**\n\nCommand: /tag \n 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝚆𝙸𝚃𝙷 𝚃𝙴𝚇𝚃 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝚃𝙴𝙻𝙻 𝙾𝚃𝙷𝙴𝚁𝚂. \n`𝙴𝚇𝙰𝙼𝙿𝙻𝙴: /tag 𝙶𝙾𝙾𝙳 𝙼𝙾𝚁𝙽𝙸𝙽𝙶!` \n𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝙰𝚂 𝙰𝙽 𝙰𝙽𝚂𝚆𝙴𝚁. 𝙰𝙽𝚈 𝙼𝚂𝙶 𝙱𝙾𝚃 𝚆𝙸𝙻𝙻 𝚃𝙰𝙶 𝚄𝚂𝙴𝚁𝚂 𝚃𝙾 𝚁𝙴𝙿𝙻𝙸𝙴𝙳 𝙼𝚂𝙶"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🙃 𝙶𝚁𝙾𝚄𝙿 𝙼𝙴 𝙳𝙰𝙻 𝙳𝙴 𝙳𝙴𝙺𝙷 𝙼𝚃 🥺✨', 'https://t.me/SNEHABHI_TAGGERBOT?startgroup=true')],
-                      [Button.url('𝙵𝙾𝚁 𝙰𝙽𝚈 𝙸𝚂𝚂𝚄𝙴 𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿', 'https://t.me/SNEHABHI_SERVER')],
-                      [Button.url('𝙵𝙾𝚁 𝙻𝙰𝚃𝙴𝚂𝚃 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', 'https://t.me/SNEHABHI_UPDATES')]
+                      [Button.url('🙃Grubunuza Almak için Basın bana 🥺✨', 'https://t.me/UserTags_Bot?startgroup=true')],
+                      [Button.url('Destek için', 'https://t.me/istanbulyakisiklisii')],
+                      [Button.url('Kanalımıza Katılın', 'https://t.me/GuvenceKanalimiz')]
                       ),
                     link_preview=False
                     )
