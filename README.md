@@ -4,7 +4,7 @@
 
 ### 🚀 Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SNEHABHIxd/USERTAGGER-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Bybosstr/usertags.git)
 
 ###𝙹𝙾𝙸𝙽 𝙵𝙾𝚁 𝙰𝙽𝚈 𝙸𝚂𝚂𝚄𝙴
 
